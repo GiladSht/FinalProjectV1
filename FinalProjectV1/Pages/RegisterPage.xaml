@@ -1,0 +1,91 @@
+﻿<Page
+    x:Class="FinalProjectV1.Pages.RegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FinalProjectV1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid >
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid Name="LoginGrid" Background="LightBlue"   Grid.Column="0">
+            <Grid.RowDefinitions >
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2">
+                <TextBlock  Text="Sign In" TextAlignment="Center" FontSize="30" ></TextBlock>
+            </Viewbox>
+            <Viewbox Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center"    >
+                <TextBox   FontSize="20"    Name="LoginUserName" Header="Username" ></TextBox>
+            </Viewbox>
+            <Viewbox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                <PasswordBox  Name="LoginPassword" Header="password"></PasswordBox>
+            </Viewbox>
+            <Viewbox Grid.ColumnSpan="2" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="3">
+                <Button Name="LoginSubmit" Click="submit_Click" Content="submit" ></Button>
+            </Viewbox>
+            <Viewbox Grid.Column="2" Grid.Row="4" Grid.ColumnSpan="2" HorizontalAlignment="Stretch">
+                <Button Name="ForgetPassword" Click="ForgetPassword_Click" Content="forgot password" ></Button>
+            </Viewbox>
+            <Viewbox Grid.Row="0" Grid.Column="0"  >
+                <AppBarButton Click="Home_Click" Name="home" Icon="Home" ></AppBarButton>
+            </Viewbox>
+        </Grid>
+        <Grid Name="Register" Background="LightGreen" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Viewbox Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2">
+                <TextBlock  Text="Register" TextAlignment="Center" FontSize="30" ></TextBlock>
+            </Viewbox>
+            <Viewbox Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                <TextBox   FontSize="20" Grid.ColumnSpan="2" HorizontalAlignment="Stretch"  Name="RegisterUserName" Header="Username" ></TextBox>
+            </Viewbox>
+            <Viewbox Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                <TextBox   FontSize="20" Grid.ColumnSpan="2" HorizontalAlignment="Stretch"  Name="email" Header="email" ></TextBox>
+            </Viewbox>
+            <Viewbox Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                <PasswordBox FontSize="20" Grid.ColumnSpan="2"  HorizontalAlignment="Center" Name="password1" Header="password" ></PasswordBox>
+            </Viewbox>
+            <Viewbox Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                <PasswordBox   FontSize="20" Grid.ColumnSpan="2" HorizontalAlignment="Center"  Name="password2" Header="Re-Enter password" ></PasswordBox>
+            </Viewbox >
+            <Viewbox Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                <Button Name="SubmitRegister" Content="submit" CornerRadius="2" Click="SubmitRegister_Click"></Button>
+            </Viewbox>
+        </Grid>
+    </Grid>
+</Page>

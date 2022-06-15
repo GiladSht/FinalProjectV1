@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="FinalProjectV1.App" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAIAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.MenuPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAACBAAQAUAAQAAACCAAACAAAAAAQA=</HashCode>
+      <FileName>MenuPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Ball" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABEAAAgAAAEAAAgEAAAAAAQAAAAAAAAAAQA=</HashCode>
+      <FileName>Classes\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.BaseClass" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAQEAEAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Classes\BaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.ConstBasket" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEQAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ConstBasket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.Manager" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAGhIAAQABIAAAAAAAIAAAAACkAAAQAAQEAAAAAAQA=</HashCode>
+      <FileName>Classes\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.MovingBasket" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAEAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\MovingBasket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Classes.MovingObject" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAIAAAAAAAAA=</HashCode>
+      <FileName>Classes\MovingObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FinalProjectV1.Pages.ChangePassword" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAQAAQAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Pages\ChangePassword.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.GamePage" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABAQAAAAAIAAAIAAQEAQAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Pages\GamePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.HelpPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAACAAAQA=</HashCode>
+      <FileName>Pages\HelpPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.OptionsPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\OptionsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.PurchasesPage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Pages\PurchasesPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.RegisterPage" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQg=</HashCode>
+      <FileName>Pages\RegisterPage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.ScoreBoard" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Pages\ScoreBoard.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FinalProjectV1.Pages.StorePage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAAAABAAAAAAAAAAAQAAQAAAAAAAAAABAAAAQA=</HashCode>
+      <FileName>Pages\StorePage.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
